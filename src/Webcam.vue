@@ -4,6 +4,7 @@
         ref="video"
         class="w-full h-auto"
         :class="[{'hidden': ! deviceId}, ...classList.split(' ')]"
+        playsinline
         autoplay
         v-bind="$attrs"
     />
